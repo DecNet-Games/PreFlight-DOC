@@ -1,0 +1,35 @@
+title: PreFlight — Project Integrity Scanner
+description: "Find what is broken in your Unity project before you ship: one scan across five defect classes, previewed repairs under one Undo, and a machine-readable verdict your tools and CI can read."
+url: "https://decnet-games.github.io"
+baseurl: "/PreFlight-DOC"
+
+# Theme comes in via remote_theme (jekyll-remote-theme ships with the
+# github-pages gem). Do NOT set `theme: just-the-docs` here and do NOT add
+# the just-the-docs gem to the Gemfile — that pairing is what produced
+# "The just-the-docs theme could not be found" on GitHub Pages.
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+# Navigation & Search settings
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+
+# Auxiliary links (Top Navigation Bar)
+aux_links:
+  "Discord Community": https://discord.gg/P9wepz7NBW
+  "Decnet Games on the Asset Store": https://assetstore.unity.com/publishers/118262
+
+# Color Scheme
+color_scheme: dark
+
+# Repo-only files that must never render as site pages
+exclude:
+  - README.md
+  - PUSH-NOTE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
